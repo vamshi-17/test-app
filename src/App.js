@@ -40,6 +40,7 @@ import HookCounterTwo from "./components/HookCounterTwo";
 import Cat from "./Cats/Cat";
 import HookCounterThree from "./components/HookCounterThree";
 import HookCounterFour from "./components/HookCounterFour";
+import PageCounter from "./components/PageCounter"; // Import the PageCounter component
 
 function App() {
   return (
@@ -53,6 +54,7 @@ function App() {
       {/* <Cat /> */}
       {/* <HookCounterThree /> */}
       <HookCounterFour />
+      <PageCounter />
     </>
   );
 }
